@@ -48,3 +48,31 @@ body{
   font-size: 16px;
   cursor: pointer;
 }
+.frame .slider{
+  position: absolute;
+  right: 15px;
+  top : 160px;
+}
+.frame .top{
+  width: 12px;
+  height: 12px;
+  background-color: rgb(197,184,184);
+  position: absolute;
+  border-radius: 50%;
+  top: -20px;
+}
+.frame .mid{
+  top: 10px;
+  width: 12px;
+  height: 35px;
+  background-image: linear-gradient(to left,orange,red);
+  border-radius: 10px;
+}
+.frame .bottom{
+  width: 12px;
+  height: 12px;
+  background-color: rgb(197,184,184);
+  position: absolute;
+  border-radius: 50%;
+  bottom: -20px;
+}
